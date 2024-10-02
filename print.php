@@ -21,9 +21,13 @@ $text = $_GET["paragraph"];
                     <h2>
                         è lungo: <?php $text; echo strlen(trim($text)); ?>
                     </h2>
+                    
                     <h2>
                       Abbiamo censurato il tuo testo, come volevi! <?php echo str_ireplace($word, "***", $text); ?>
                     </h2>
+
+                    <h3>   è lungo:  <?php echo strlen (str_ireplace($word, "***", $text)); ?>
+                    </h3>
             </div>
         </div>
     </div>
