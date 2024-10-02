@@ -1,4 +1,4 @@
-<php?
+<?php
 $word = $_GET["bad-word"];
 $text = $_GET["paragraph"];
 ?>
