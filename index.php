@@ -14,12 +14,12 @@
             <form action="./print.php" method="GET">
     <div class="mb-3">
     <label for="bad-word" class="form-label">Parolaccia:</label>
-    <input class="form-control" type="text" id="bad-word" placeholder="Inserisci qui la parola da censurare" aria-label="default example">
+    <input class="form-control" type="text" id="bad-word" name="bad-word" placeholder="Inserisci qui la parola da censurare" >
     </div>
 
     <div class="mb-3">
     <label for="paragraph" class="form-label">Il Paragrafo:</label>
-    <input class="form-control" type="text" id="paragraph" placeholder="Inserisci qui il paragrafo" aria-label="default example">
+    <input class="form-control" type="text" id="paragraph" name="paragraph" placeholder="Inserisci qui il paragrafo" >
     </div>
 
         <input class="btn btn-primary" type="submit" value="Submit">
