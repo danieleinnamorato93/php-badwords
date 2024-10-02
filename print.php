@@ -16,8 +16,14 @@ $text = $_GET["paragraph"];
         <div class="row">
             <div class="col-12">
                     <h1>
-                        Hai scritto: <?php echo $word  ?>
+                        Questo è il paragrafo: <?php echo $text ; ?>
                     </h1>
+                    <h2>
+                        è lungo: <?php $text; echo strlen(trim($text)); ?>
+                    </h2>
+                    <h2>
+                      Abbiamo censurato il tuo testo, come volevi! <?php echo str_ireplace($word, "***", $text); ?>
+                    </h2>
             </div>
         </div>
     </div>
